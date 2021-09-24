@@ -1,3 +1,7 @@
 >>> npx create-react-app my-app
 
-props are immutable
+props are immutable, passed to component, owned by parent not changed by children
+
+state managed within component, can be changed
+
+setState = asynchronous, use callback if need to execute code after state change
