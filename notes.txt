@@ -5,3 +5,16 @@ props are immutable, passed to component, owned by parent not changed by childre
 state managed within component, can be changed
 
 setState = asynchronous, use callback if need to execute code after state change
+
+
+pure component
+  = implements shouldComponentUpdate with a shallow props and state comparison
+  = prevent uncessary renders (for performance boost)
+  = never mutate state, always return a new object that reflects a new state
+
+
+React.memo is equivalent of PureComponent but in functional components
+
+Refs = to access DOM nodes in react (RefsDemo.js, FocusInput.js)
+     = refs can only be attached to class components
+     = useRef hook can be used if functional components
