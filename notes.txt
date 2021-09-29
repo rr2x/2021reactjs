@@ -18,3 +18,15 @@ React.memo is equivalent of PureComponent but in functional components
 Refs = to access DOM nodes in react (RefsDemo.js, FocusInput.js)
      = refs can only be attached to class components
      = useRef hook can be used if functional components
+     = forwarding refs, parent automatically pass ref to children (FRInput.js, FRParentInput.js)
+
+Portals = render children in a dom node that exist the dom heirarchy of the parent component (PortalDemo.js)
+        = ability to break out of <div id="root"/>
+        = for models/popups/tooltips
+
+Error Boundary = class component that implements getDerivedStateFromError or componentDidCatch
+               = so that only that specific component will crash instead of everything
+               = ErrorBoundary.js
+               = catch error and display fallback UI in production mode
+
+Higher Order Components = for reuseability of common component functionality

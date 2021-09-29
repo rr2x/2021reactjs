@@ -1,6 +1,5 @@
 // import logo from './logo.svg';
 import './App.css';
-
 // import Greet from './components/Greet'
 // import Welcome from './components/Welcome'
 // import Hello from './components/Hello'
@@ -22,13 +21,35 @@ import './App.css';
 // import Table from './components/Table'
 // import ParentComp from './components/ParentComp';
 // import RefsDemo from './components/RefsDemo';
-import FocusInput from './components/FocusInput'
+// import FocusInput from './components/FocusInput'
+// import FRParentInput from './components/FRParentInput'
+// import PortalDemo from './components/PortalDemo'
+// import ErrorBoundary from './components/ErrorBoundary';
+// import Hero from './components/Hero'
+import ClickCounter from './components/ClickCounter'
+import HoverCounter from './components/HoverCounter'
 
 function App() {
   return (
     <div className="App">
-      <FocusInput />
+      <ClickCounter />
+      <HoverCounter />
 
+      {/* <ErrorBoundary>
+        <Hero heroName='1' />
+      </ErrorBoundary>
+      <ErrorBoundary>
+        <Hero heroName='2' />
+      </ErrorBoundary>
+      <ErrorBoundary>
+        <Hero heroName='Joker' />
+      </ErrorBoundary> */}
+
+      {/* <PortalDemo/> */}
+
+      {/* <FRParentInput /> */}
+
+      {/* <FocusInput /> */}
 
       {/* <RefsDemo/> */}
 
