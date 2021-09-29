@@ -30,3 +30,12 @@ Error Boundary = class component that implements getDerivedStateFromError or com
                = catch error and display fallback UI in production mode
 
 Higher Order Components = for reuseability of common component functionality
+                        = withCounter.js
+                        = when you pass props on components that use HOC,
+                          by default the props are passed on HOC and not component
+                          you have to use spread operator inside HOC to prevent this
+
+
+Render Prop Pattern = another way to share common functionality like HOC
+                    = Counter2.js
+                    = technique for sharing code between components using prop whose value is a function
