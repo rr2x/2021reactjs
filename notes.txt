@@ -39,3 +39,6 @@ Higher Order Components = for reuseability of common component functionality
 Render Prop Pattern = another way to share common functionality like HOC
                     = Counter2.js
                     = technique for sharing code between components using prop whose value is a function
+
+React Context = provides a way through component tree without prop drilling (passing props through several levels to children)
+              = userContext.js

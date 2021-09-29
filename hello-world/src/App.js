@@ -1,5 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
+
+
 // import Greet from './components/Greet'
 // import Welcome from './components/Welcome'
 // import Hello from './components/Hello'
@@ -29,17 +31,30 @@ import './App.css';
 // import ClickCounter from './components/ClickCounter'
 // import HoverCounter from './components/HoverCounter'
 
-import ClickCounterTwo from './components/ClickCounterTwo'
-import HoverCounterTwo from './components/HoverCounterTwo'
-import User from './components/User'
+// import ClickCounterTwo from './components/ClickCounterTwo'
+// import HoverCounterTwo from './components/HoverCounterTwo'
+// import User from './components/User'
 
-import Counter2 from './components/Counter2'
+// import Counter2 from './components/Counter2'
+
+// import ComponentC from './components/ComponentC'
+// import { UserProvider } from './components/userContext'
+
+// import PostList from './comp2/PostList';
+
+import PostForm from './comp2/PostForm'
 
 function App() {
   return (
     <div className="App">
+      <PostForm />
+      {/* <PostList /> */}
 
-      <Counter2>
+      {/* <UserProvider value="testxxxxxx">
+        <ComponentC />
+      </UserProvider> */}
+
+      {/* <Counter2>
         {(count, incrementCount) => (
           <ClickCounterTwo count={count} incrementCount={incrementCount} />
         )}
@@ -49,7 +64,7 @@ function App() {
         {(count, incrementCount) => (
           <HoverCounterTwo count={count} incrementCount={incrementCount} />
         )}
-      </Counter2>
+      </Counter2> */}
 
       {/* <ClickCounterTwo />
       <HoverCounterTwo />
